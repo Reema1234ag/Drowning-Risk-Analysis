@@ -118,7 +118,7 @@ def generate_and_save_labels():
 
 if __name__ == "__main__":
     os.chdir(os.path.abspath(os.path.dirname(__file__)))
-    #download_and_extract('https://www.crcv.ucf.edu/data/YouTube_DataSet_Annotated.zip')
+    download_and_extract('https://www.crcv.ucf.edu/data/YouTube_DataSet_Annotated.zip')
     print ('Writing train and test CSV file...')
     generate_and_save_labels()
     print ('Done.')
