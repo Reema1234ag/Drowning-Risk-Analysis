@@ -1,6 +1,6 @@
 import os
 
-from Implementation.Model_Conv3d import conv3d_ucf11
+from Implementation.Model_Conv3d import model_conv3D
 from Implementation.VideoReader import VideoReader
 
 
@@ -15,4 +15,4 @@ if __name__ == "__main__":
     train_reader = VideoReader(os.path.join(data_path,'train_map.csv'), num_output_classes, True)
     test_reader = VideoReader(os.path.join(data_path,'train_map.csv'), num_output_classes, True)
 
-    conv3d_ucf11(train_reader, test_reader)
+    model_conv3D()
