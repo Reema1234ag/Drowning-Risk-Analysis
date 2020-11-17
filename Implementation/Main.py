@@ -14,5 +14,6 @@ if __name__ == "__main__":
     num_output_classes = 11
     train_reader = VideoReader(os.path.join(data_path,'train_map.csv'), num_output_classes, True)
     test_reader = VideoReader(os.path.join(data_path,'train_map.csv'), num_output_classes, True)
-
+    print(train_reader)
+    print(test_reader)
     model_conv3D()
