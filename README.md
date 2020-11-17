@@ -5,5 +5,5 @@ Unsupervised places for swimming are death traps since there is no one to educat
 
 
 
-Using YOLO object detection, this program will detect whether a person is drowning or not. This software can be used with a Raspberry Pi Camera, which can then be placed underwater with an appropriate case.
+This software can be used with a Raspberry Pi Camera, which can then be placed underwater with an appropriate case.
 The algorithm consists of three core steps: pre-processing, objects-detection and drowning detection.
