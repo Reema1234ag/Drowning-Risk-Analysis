@@ -4,6 +4,5 @@ Thus our project would be very useful in the school swimming pools for the kids 
 Unsupervised places for swimming are death traps since there is no one to educate and manage the crowd or to assist and alert in case of an emergency. So, it will help in preventing the risk factor. As a whole nothing can be more important than saving one’s life.
 
 
-
 This software can be used with a Raspberry Pi Camera, which can then be placed underwater with an appropriate case.
 The algorithm consists of three core steps: pre-processing, objects-detection and drowning detection.
